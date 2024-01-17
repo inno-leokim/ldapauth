@@ -1,0 +1,18 @@
+# spring:
+#   output:
+#     ansi:
+#       enabled: ALWAYS
+#   ldap:
+#     embedded:
+#       port: 8389
+#       base-dn: dc=springframework,dc=org
+#       ldif: classpath:test-server.ldif
+
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+  ldap:
+    base: dc=kyk,dc=brand13,dc=co,dc=kr
+
+
